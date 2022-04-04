@@ -1,0 +1,77 @@
+.botoes{
+    max-height: 360px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template:  "c div mult sub"
+                    "sete oito nove ad"
+                    "quatro cinco seis ponto"
+                    "um dois tres igual"
+                    "zero zero zero igual";
+    gap: 5px;
+}
+.c{
+    grid-area:c;
+}
+.div{
+    grid-area:div
+}
+.mult{
+    grid-area:mult
+}
+.sub{
+    grid-area:sub
+}
+.sete{
+    grid-area:sete
+}
+.oito{
+    grid-area:oito
+}
+.nove{
+    grid-area:nove
+}
+.ad{
+    grid-area:ad
+}
+.quatro{
+    grid-area:quatro
+}
+.cinco{
+    grid-area:cinco
+}
+.seis{
+    grid-area:seis
+}
+.ponto{
+    grid-area:ponto
+}
+.um{
+    grid-area:um
+}
+.dois{
+    grid-area:dois
+}
+.tres{
+    grid-area:tres
+}
+.igual{ 
+    grid-area:igual
+}
+.zero{
+    grid-area:zero
+}
+
+.botoes button{
+    border: none;
+    background-color: grey;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    border-bottom: 5px solid black;
+    position: relative;
+}
+.botoes button:active{
+    border: none;
+    top: 2px;    
+}
